@@ -24,3 +24,8 @@ fname = input("Name: ")
 lname = input("Last name: ")
 
 print(f"{fname} {lname}")
+
+l1 = int(input("Liczba1: "))
+l2 = int(input("Liczba2: "))
+
+print(f"{l1+l2}")

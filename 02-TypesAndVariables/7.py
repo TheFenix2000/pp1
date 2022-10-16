@@ -1,4 +1,3 @@
-#7
 n1 = 5
 n2 = 1
 n3 = 8
@@ -17,15 +16,3 @@ check = n3 == n4
 print("Check value: ", check)
 
 print(f"Sum {sum}")
-
-#9
-
-fname = input("Name: ")
-lname = input("Last name: ")
-
-print(f"{fname} {lname}")
-
-l1 = int(input("Liczba1: "))
-l2 = int(input("Liczba2: "))
-
-print(f"{l1+l2}")

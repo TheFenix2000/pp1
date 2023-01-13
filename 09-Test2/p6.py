@@ -13,3 +13,7 @@ def f(age, course, average):
                         if suma/len(courseItem['grades']) >= average:
                             count+=1
     return count
+
+# with open("data.json", 'r') as file:
+#     json_obj = eval(file.read().replace('\n', ''))
+#     print(json_obj[2]['studies'])
